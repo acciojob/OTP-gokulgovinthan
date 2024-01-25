@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+/* Your CSS code here. If applicable */
+.code_container {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    gap: 10px;
+}
+
+.code {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    width: 50px;
+    font-size: 2rem;
+    display: flex; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.code:focus {
+    border: 1px solid blue;
+}
